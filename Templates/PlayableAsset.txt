@@ -1,0 +1,17 @@
+// ========================================
+// Author: #AUTHORNAME#
+// Created: #CREATEDDATE#
+// ========================================
+
+using System;
+using UnityEngine;
+using UnityEngine.Playables;
+
+namespace #NAMESPACENAME#
+{
+    [Serializable]
+    public class #SCRIPTNAME# : PlayableAsset
+    {
+        #NOTRIM#
+    }
+}

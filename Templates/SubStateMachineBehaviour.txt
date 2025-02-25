@@ -1,0 +1,47 @@
+// ========================================
+// Author: #AUTHORNAME#
+// Created: #CREATEDDATE#
+// ========================================
+
+using UnityEngine;
+
+namespace #NAMESPACENAME#
+{
+    public class #SCRIPTNAME# : StateMachineBehaviour
+    {
+        private override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            #NOTRIM#
+        }
+    
+        private override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            #NOTRIM#
+        }
+    
+        private override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            #NOTRIM#
+        }
+    
+        private override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            #NOTRIM#
+        }
+    
+        private override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            #NOTRIM#
+        }
+
+        private override public void OnStateMachineEnter(Animator animator, int stateMachinePathHash)
+        {
+            #NOTRIM#
+        }
+
+        private override public void OnStateMachineExit(Animator animator, int stateMachinePathHash)
+        {
+            #NOTRIM#
+        }
+    }
+}

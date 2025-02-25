@@ -1,0 +1,46 @@
+{
+  "Templates": [
+      {
+          "ScriptType": "SubStateMachineBehaviour",
+          "MenuPath": "Assets/Create/Custom/Scripting/State Machine Behaviour/Sub State Machine Behaviour Script",
+          "DefaultFileName": "NewSubStateMachineBehaviour.cs",
+          "Content": "// ========================================\n// Author: #AUTHORNAME#\n// Created: #CREATEDDATE#\n// ========================================\n\nusing UnityEngine;\n\nnamespace #NAMESPACENAME#\n{\n    public class #SCRIPTNAME# : StateMachineBehaviour\n    {\n        private override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)\n        {\n            #NOTRIM#\n        }\n    \n        private override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)\n        {\n            #NOTRIM#\n        }\n    \n        private override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)\n        {\n            #NOTRIM#\n        }\n    \n        private override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)\n        {\n            #NOTRIM#\n        }\n    \n        private override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)\n        {\n            #NOTRIM#\n        }\n\n        private override public void OnStateMachineEnter(Animator animator, int stateMachinePathHash)\n        {\n            #NOTRIM#\n        }\n\n        private override public void OnStateMachineExit(Animator animator, int stateMachinePathHash)\n        {\n            #NOTRIM#\n        }\n    }\n}"
+      },
+      {
+          "ScriptType": "TestScript",
+          "MenuPath": "Assets/Create/Custom/Scripting/Test Script",
+          "DefaultFileName": "NewTestScript.cs",
+          "Content": "// ========================================\n// Author: #AUTHORNAME#\n// Created: #CREATEDDATE#\n// ========================================\n\nusing System.Collections;\nusing NUnit.Framework;\nusing UnityEngine;\nusing UnityEngine.TestTools;\n\nnamespace #NAMESPACENAME#\n{\n    public class #SCRIPTNAME#\n    {\n        [Test]\n        public void #SCRIPTNAME#SimplePasses()\n        {\n            \n        }\n    \n        [UnityTest]\n        public IEnumerator #SCRIPTNAME#WithEnumeratorPasses()\n        {\n            yield return null;\n        }\n    }\n}"
+      },
+      {
+          "ScriptType": "CSharp",
+          "MenuPath": "Assets/Create/Custom/Scripting/C# Script",
+          "DefaultFileName": "NewCSharpScript.cs",
+          "Content": "// ========================================\n// Author: #AUTHORNAME#\n// Created: #CREATEDDATE#\n// ========================================\n\nusing System;\nusing System.Collections;\nusing System.Collections.Generic;\n\nnamespace #NAMESPACENAME#\n{\n    public class #SCRIPTNAME#\n    {\n        #NOTRIM#\n    }\n}"
+      },
+      {
+          "ScriptType": "MonoBehaviour",
+          "MenuPath": "Assets/Create/Custom/Scripting/MonoBehaviour Script",
+          "DefaultFileName": "NewMonoBehaviourScript.cs",
+          "Content": "// ========================================\n// Author: #AUTHORNAME#\n// Created: #CREATEDDATE#\n// ========================================\n\nusing System;\nusing System.Collections;\nusing System.Collections.Generic;\nusing UnityEngine;\n\nnamespace #NAMESPACENAME#\n{\n    public class #SCRIPTNAME# : MonoBehaviour\n    {\n        #NOTRIM#\n    }\n}"
+      },
+      {
+          "ScriptType": "PlayableAsset",
+          "MenuPath": "Assets/Create/Custom/Scripting/Playable/Playable Asset Script",
+          "DefaultFileName": "NewPlayableAsset.cs",
+          "Content": "// ========================================\n// Author: #AUTHORNAME#\n// Created: #CREATEDDATE#\n// ========================================\n\nusing System;\nusing UnityEngine;\nusing UnityEngine.Playables;\n\nnamespace #NAMESPACENAME#\n{\n    [Serializable]\n    public class #SCRIPTNAME# : PlayableAsset\n    {\n        #NOTRIM#\n    }\n}"
+      },
+      {
+          "ScriptType": "PlayableBehaviour",
+          "MenuPath": "Assets/Create/Custom/Scripting/Playable/Playable Behaviour Script",
+          "DefaultFileName": "NewPlayableBehaviour.cs",
+          "Content": "// ========================================\n// Author: #AUTHORNAME#\n// Created: #CREATEDDATE#\n// ========================================\n\nusing UnityEngine;\nusing UnityEngine.Playables;\n\nnamespace #NAMESPACENAME#\n{\n    public class #SCRIPTNAME# : PlayableBehaviour\n    {\n        public override void OnGraphStart(Playable playable)\n        {\n            #NOTRIM#\n        }\n    \n        public override void OnGraphStop(Playable playable)\n        {\n            #NOTRIM#\n        }\n    \n        public override void OnBehaviourPlay(Playable playable, FrameData info)\n        {\n            #NOTRIM#\n        }\n    \n        public override void OnBehaviourPause(Playable playable, FrameData info)\n        {\n            #NOTRIM#\n        }\n    \n        public override void PrepareFrame(Playable playable, FrameData info)\n        {\n            #NOTRIM#\n        }\n    }\n}"
+      },
+      {
+          "ScriptType": "SceneTemplatePipeline",
+          "MenuPath": "Assets/Create/Custom/Scripting/Scene Template Pipeline Script",
+          "DefaultFileName": "NewSceneTemplatePipeline.cs",
+          "Content": "// ========================================\n// Author: #AUTHORNAME#\n// Created: #CREATEDDATE#\n// ========================================\n\nusing UnityEditor.SceneTemplate;\nusing UnityEngine;\nusing UnityEngine.SceneManagement;\n\nnamespace #NAMESPACENAME#\n{\n    public class #SCRIPTNAME# : ISceneTemplatePipeline\n    {\n        public virtual bool IsValidTemplateForInstantiation(SceneTemplateAsset sceneTemplateAsset)\n        {\n            return true;\n        }\n    \n        public virtual void BeforeTemplateInstantiation(SceneTemplateAsset sceneTemplateAsset, bool isAdditive, string sceneName)\n        {\n            #NOTRIM#\n        }\n    \n        public virtual void AfterTemplateInstantiation(SceneTemplateAsset sceneTemplateAsset, Scene scene, bool isAdditive, string sceneName)\n        {\n            #NOTRIM#\n        }\n    }\n}"
+      }
+  ]
+}

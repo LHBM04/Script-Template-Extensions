@@ -1,0 +1,14 @@
+// ========================================
+// Author: #AUTHORNAME#
+// Created: #CREATEDDATE#
+// ========================================
+
+using UnityEngine;
+
+namespace #NAMESPACENAME#
+{
+	public class #SCRIPTNAME# : StateMachineBehaviour
+	{
+	
+	}
+}

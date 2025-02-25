@@ -1,0 +1,38 @@
+// ========================================
+// Author: #AUTHORNAME#
+// Created: #CREATEDDATE#
+// ========================================
+
+using UnityEngine;
+using UnityEngine.Playables;
+
+namespace #NAMESPACENAME#
+{
+    public class #SCRIPTNAME# : PlayableBehaviour
+    {
+        public override void OnGraphStart(Playable playable)
+        {
+            #NOTRIM#
+        }
+    
+        public override void OnGraphStop(Playable playable)
+        {
+            #NOTRIM#
+        }
+    
+        public override void OnBehaviourPlay(Playable playable, FrameData info)
+        {
+            #NOTRIM#
+        }
+    
+        public override void OnBehaviourPause(Playable playable, FrameData info)
+        {
+            #NOTRIM#
+        }
+    
+        public override void PrepareFrame(Playable playable, FrameData info)
+        {
+            #NOTRIM#
+        }
+    }
+}

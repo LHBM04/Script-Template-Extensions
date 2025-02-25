@@ -1,0 +1,17 @@
+// ========================================
+// Author: #AUTHORNAME#
+// Created: #CREATEDDATE#
+// ========================================
+
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace #NAMESPACENAME#
+{
+    public class #SCRIPTNAME# : ScriptableObject
+    {
+    	#NOTRIM#
+    }
+}

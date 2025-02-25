@@ -1,0 +1,27 @@
+// ========================================
+// Author: #AUTHORNAME#
+// Created: #CREATEDDATE#
+// ========================================
+
+using System.Collections;
+using NUnit.Framework;
+using UnityEngine;
+using UnityEngine.TestTools;
+
+namespace #NAMESPACENAME#
+{
+    public class #SCRIPTNAME#
+    {
+        [Test]
+        public void #SCRIPTNAME#SimplePasses()
+        {
+            
+        }
+    
+        [UnityTest]
+        public IEnumerator #SCRIPTNAME#WithEnumeratorPasses()
+        {
+            yield return null;
+        }
+    }
+}

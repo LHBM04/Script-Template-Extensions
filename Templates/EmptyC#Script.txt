@@ -1,0 +1,16 @@
+// ========================================
+// Author: #AUTHORNAME#
+// Created: #CREATEDDATE#
+// ========================================
+
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+namespace #NAMESPACENAME#
+{
+    public class #SCRIPTNAME#
+    {
+    	#NOTRIM#
+    }
+}
