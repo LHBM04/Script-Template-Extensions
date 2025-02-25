@@ -47,7 +47,7 @@ namespace ProjectAP.Core.Utilities.Editor
             AddMenuItem("Assets/Create/Scene/Scene Template Pipeline", 33, CreateSceneTemplatePiplineScript);
 
             AddMenuItem("Assets/Create/Animation/State Machine Behaviour", 22, CreateStateMachineBehaviourScript);
-            AddMenuItem("Assets/Create/Animation/Sub Scene Template Pipeline", 23, CreateSubStateMachineBehaviourScript);
+            AddMenuItem("Assets/Create/Animation/Sub State Machine Behaviour", 23, CreateSubStateMachineBehaviourScript);
 
             AddMenuItem("Assets/Create/Testing/C# Test Script", 83, CreateTestScript);
             #endregion
