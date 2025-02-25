@@ -126,7 +126,7 @@ namespace ProjectAP.Core.Utilities.Editor
                     .Replace(Path.DirectorySeparatorChar, '.');
             }
 
-            return "UrbanFrontline";
+            return string.Empty;
         }
 
         /// <summary>
